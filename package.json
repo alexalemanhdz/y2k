@@ -1,0 +1,35 @@
+{
+  "name": "next-template",
+  "version": "1.0.0",
+  "description": "\"A template for a stack based on Next.js\"",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node server.js",
+    "build": "next build",
+    "start": "NODE_ENV=production node server.js",
+    "test": "npx eslint"
+  },
+  "author": "alexalemanhdz",
+  "license": "ISC",
+  "dependencies": {
+    "@material-ui/core": "^4.9.7",
+    "isomorphic-unfetch": "^3.0.0",
+    "next": "^9.3.1",
+    "next-offline": "^5.0.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-redux": "^7.2.0",
+    "redux": "^4.0.5"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb": "^18.1.0",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-prettier": "^3.1.2",
+    "eslint-plugin-react": "^7.19.0",
+    "eslint-plugin-react-hooks": "^2.5.1",
+    "prettier": "1.19.1"
+  }
+}
